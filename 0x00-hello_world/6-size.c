@@ -1,7 +1,10 @@
 #include <stdio.h>
 /**
  * main - prints different size of various types on the computer
- * Return: Always 0 (Success)
+ * in the put function
+ * Description: using the main function, this program prints "different types
+ * of size on the computer it is compiled and run on
+ * Return: 0
  */
 int main(void)
 {
