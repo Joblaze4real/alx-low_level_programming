@@ -5,12 +5,13 @@
  */
 int main(void)
 {
-	char p = _putchar;
+	char p = "_putchar";
 	int n;
 
 	while (n < 2)
 	{
-		putchar(p'\n');
+		putchar(p, n);
+		n++
 	}
 	putchar('\n');
 	return (0);
