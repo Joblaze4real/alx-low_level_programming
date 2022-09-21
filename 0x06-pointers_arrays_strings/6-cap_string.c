@@ -2,7 +2,7 @@
 /**
  * cap_string - capitalizes every word of a string
  * @s: string to modify
- * Return: the esulting strinh
+ * Return: to the resulting string
  */
 char *cap_string(char *s)
 {
