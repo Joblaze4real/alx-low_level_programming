@@ -4,7 +4,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <limits.h>
-#include <strings.h>
+#include <string.h>
 
 int _putchar(char c);
 void *malloc_checked(unsigned int b);
@@ -15,5 +15,6 @@ void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size);
 void errors(void);
 int _strlen(char *s);
 int is_digit(char *s);
+int _atoi(const char *s);
 
 #endif
