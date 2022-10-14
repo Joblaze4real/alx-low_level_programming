@@ -5,6 +5,7 @@
  * @separator: separator between strings
  * @n: number of arguments
  */
+
 void print_strings(const char *separator, const unsigned int n, ...)
 {
 	unsigned int i;
